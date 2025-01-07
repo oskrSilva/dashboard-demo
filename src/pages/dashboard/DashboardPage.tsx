@@ -1,9 +1,7 @@
 import { Package, Truck, CheckCircle, PackageOpen } from 'lucide-react';
 import { StatsCard } from '../../components/Dashboard/StatsCard';
-//@ts-ignore
-import { RecentActivity } from '../../components/dashboard/RecentActivity';
-//@ts-ignore
-import { PackageOverview } from '../../components/dashboard/PackageOverview';
+import { RecentActivity } from '../../components/Dashboard/RecentActivity';
+import { PackageOverview } from '../../components/Dashboard/PackageOverview';
 import { mockStats, mockActivities, mockShipments } from '../../data/mockData';
 import styles from './DashboardPage.module.css';
 
