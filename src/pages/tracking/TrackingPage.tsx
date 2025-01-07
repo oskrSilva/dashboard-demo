@@ -57,16 +57,6 @@ export function TrackingPage() {
                 <p className={styles.driverContact}>{driver.phone}</p>
               </div>
             ))}
-        {/*  <div className={styles.stat}>
-            <span className={styles.label}>Repartidores Activos</span>
-            <span className={styles.value}>{mockDrivers.length}</span>
-          </div>
-          <div className={styles.stat}>
-            <span className={styles.label}>Entregas en Curso</span>
-            <span className={styles.value}>
-              {mockDrivers.reduce((acc, driver) => acc + driver.activeDeliveries, 0)}
-            </span>
-          </div>*/}
         </div> 
       </div>
 
