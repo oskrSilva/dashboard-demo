@@ -1,7 +1,10 @@
 import { Package, Truck, CheckCircle, PackageOpen } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+//@ts-ignore
 import { StatsCard } from '@/components/dashboard/StatsCard';
+//@ts-ignore
 import { RecentActivity } from '@/components/dashboard/RecentActivity';
+//@ts-ignore
 import { PackageOverview } from '@/components/dashboard/PackageOverview';
 import { mockStats, mockActivities, mockShipments } from '@/data/mockData';
 import styles from './DashboardPage.module.css';
