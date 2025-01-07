@@ -1,0 +1,102 @@
+.container {
+  width: 100%;
+}
+
+.header {
+  @apply mb-8;
+}
+
+.title {
+  @apply text-2xl font-bold text-gray-900 dark:text-white mb-4;
+}
+
+.stats {
+  width: 100%;
+}
+
+.stat {
+  @apply bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm;
+}
+
+.label {
+  @apply block text-sm text-gray-600 dark:text-gray-400;
+}
+
+.value {
+  @apply block text-2xl font-bold text-gray-900 dark:text-white mt-1;
+}
+
+.content {
+  width: 100%;
+}
+
+.map {
+  @apply col-span-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm overflow-hidden;
+  height: 600px;
+}
+
+.mapContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar {
+  @apply col-span-1;
+}
+
+.sidebarTitle {
+  @apply text-lg font-semibold text-gray-900 dark:text-white mb-4;
+}
+
+.driverList {
+  display: flex;
+}
+
+.driverCard {
+  @apply bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm cursor-pointer
+  hover:shadow-md transition-shadow duration-200 mr-4 mb-4;
+}
+
+.driverCard.selected {
+  @apply ring-2 ring-blue-500;
+}
+
+.driverHeader {
+  @apply flex items-center justify-between mb-2;
+}
+
+.driverName {
+  @apply font-medium text-gray-900 dark:text-white;
+}
+
+.status {
+  @apply text-sm px-2 py-1 rounded-full;
+}
+
+.status.available {
+  @apply bg-green-100 text-green-800 dark:bg-green-900/20 dark:text-green-400;
+}
+
+.status.busy {
+  @apply bg-yellow-100 text-yellow-800 dark:bg-yellow-900/20 dark:text-yellow-400;
+}
+
+.driverInfo {
+  @apply text-sm text-gray-600 dark:text-gray-400;
+}
+
+.driverContact {
+  @apply text-sm text-gray-500 dark:text-gray-500 mt-2;
+}
+
+.popup {
+  @apply p-2;
+}
+
+.popup .driverName {
+  @apply text-base font-medium mb-1;
+}
+
+.popup .driverInfo {
+  @apply text-sm text-gray-600;
+}
